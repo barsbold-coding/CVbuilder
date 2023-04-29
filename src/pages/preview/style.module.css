@@ -1,0 +1,78 @@
+.screen {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: gray;
+}
+
+.leftContainer {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: flex-start;
+    width: 25%;
+    height: 100vh;
+    padding: 40px;
+    background-color: #262626;
+    color: white;
+}
+
+#profileImg {
+    border: 1px solid white;
+    border-radius: 50%;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.bio {
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 0;
+    color: black;
+}
+
+.dropdown {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    background-color: #171513;
+    color: white;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.richInput {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    color: black;
+    padding: 10px;
+}
+
+.rightContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #171513;
+}
+
+.cvContainer {
+    width: 35%;
+    height: 90vh;
+    color: white;
+}
+
+.cvBuilder {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
