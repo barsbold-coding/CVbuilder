@@ -37,7 +37,7 @@ const Preview = () => {
         <div className={css.screen}>
             <div className={css.leftContainer}>
                 <Image id={css.profileImg} src="/favicon.ico" width={100} height={100} alt="profile picture"></Image>
-                <h1>Jane Smith</h1>
+                <h1 className={css.userName}>Jane Smith</h1>
                 <input className={css.bio} type="text" placeholder="click here to add bio..."></input>
                 <button className={css.dropdown} onClick={experienceHandler}>
                     Experience
