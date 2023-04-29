@@ -42,13 +42,14 @@
     width: 100%;
     height: 30px;
     background-color: #171513;
+    border-radius: 10px;
     color: white;
     margin: 10px 0;
     padding: 10px;
 }
 
 .richInput {
-    width: 100%;
+    /* width: 100%; */
     height: 150px;
     border-radius: 10px;
     color: black;
@@ -58,15 +59,16 @@
 .rightContainer {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: space-around;
     width: 100%;
     height: 100vh;
     background-color: #171513;
+    color: white;
 }
 
 .cvContainer {
-    width: 35%;
+    width: 40%;
     height: 90vh;
     color: white;
 }
@@ -75,4 +77,34 @@
     width: 100%;
     height: 100%;
     background-color: white;
+}
+
+.shareLink {
+    display: flex;
+    flex-direction: column;
+}
+
+.copyButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 30px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+    color: orange;
+}
+
+.linkInput {
+    width: 200px;
+    height: 30px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.shareLinkContainer {
+    display: flex;
+    flex-direction: row;
 }
