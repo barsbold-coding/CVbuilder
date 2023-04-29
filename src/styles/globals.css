@@ -9,6 +9,7 @@
   --color-primary: #EC5629;
   --color-secondary: #292929;
   --color-background: #171513;
+  --color-white: #FFFFFF;
 }
 
 @media (prefers-color-scheme: dark) {
