@@ -101,15 +101,22 @@
     border-top-right-radius: 10px;
     background-color: white;
     color: orange;
+    cursor: pointer;
 }
 
 .linkInput {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
     width: 100%;
     height: 30px;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
     background-color: white;
     border-right: 1px solid black;
+    color: black;
+    padding-left: 10px;
 }
 
 .shareLinkContainer {

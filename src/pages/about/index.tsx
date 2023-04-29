@@ -68,7 +68,7 @@ const Preview = () => {
                 <div className={css.shareLink}>
                     <h1>Share:</h1>
                     <div className={css.shareLinkContainer}>
-                        <div className={css.linkInput}></div>
+                        <div className={css.linkInput}>https://facebook.com</div>
                         <div className={css.copyButton}>Copy</div>
                     </div>
                 </div>
