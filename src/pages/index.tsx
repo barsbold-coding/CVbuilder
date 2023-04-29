@@ -1,14 +1,11 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import {Heading} from '@/components/typography'
 import Navbar from '@/components/navbar'
-
-const inter = Inter({ subsets: ['latin'] })
+import Hero from '@/components/Hero'
 
 export default function Home() {
   return (
     <div>
       <Navbar />
+      <Hero text="Here is your finest CV." />
     </div>
   )
 }

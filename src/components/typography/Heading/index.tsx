@@ -6,7 +6,7 @@ type HeadingProps = {
   children: string;
   size: 'huge' | 'big' | 'normal';
   color: 'primary' | 'secondary' | 'background' | 'white';
-  type: 'logo' | 'normal'
+  type: 'logo' | 'text'
 }
 
 function Heading({ children, size, color, type }: HeadingProps) {

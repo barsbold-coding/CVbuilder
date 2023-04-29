@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
+import {Paragraph} from '../typography';
 
 import style from './style.module.css';
 
@@ -12,9 +13,11 @@ type NavItemProps = {
 
 function NavItem({ contrast, to, children, onClick }: NavItemProps) {
   return (
-    <Link href={to} onClick={onClick}>
+    <Link href={to} onClick={onClick} style={{ textDecoration: 'none' }}>
       <div style={style} className={`${style.item} ${contrast && style.contrast}`}>
-        {children}
+        <Paragraph size='normal' color='white'>
+          {children}
+        </Paragraph>
       </div>
     </Link>
   );
