@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+.logo {
+  font-family: 'Pacifico', cursive;
+  font-size: 3rem;
+}
+
+.normal {
+  font-family: 'Roboto', sans-serif;
+}
+
+.huge {
+  font-size: 8rem;
+}
+.big {
+  font-size: 3rem;
+}
+.normal {
+  font-size: 1.5rem;
+}

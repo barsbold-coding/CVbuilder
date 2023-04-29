@@ -1,0 +1,15 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-top: 16px;
+}
+
+.menu {
+  color: var(--color-white);
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}

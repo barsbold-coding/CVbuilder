@@ -1,0 +1,9 @@
+.item {
+  color: var(--color-white);
+  padding: 10px 18px 10px 18px;
+  border-radius: 5px;
+}
+
+.contrast {
+  background-color: var(--color-primary);
+}
